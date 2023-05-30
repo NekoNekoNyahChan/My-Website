@@ -22,6 +22,10 @@ const handleOnMove = e => {
   track.animate({
     transform: `translate(${nextPercentage}%, -50%)`
   }, { duration: 1200, fill: "forwards" });
+
+  /*
+  removed bc it shifts pics around a bit too much imo
+  */
   /*
   for(const image of track.getElementsByClassName("image")) {
     image.animate({
