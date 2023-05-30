@@ -2,16 +2,16 @@
 creating HTML code
 */
 const imageTrack = [
-    "/images/Homepage_Image_3.JPG",
-    "/images/Homepage_Image_3.JPG",
     "/images/Homepage_Image_2.JPG",
     "/images/Homepage_Image_2.JPG",
-    "/images/Homepage_Image_3.JPG",
     "/images/Homepage_Image_2.JPG",
     "/images/Homepage_Image_2.JPG",
-    "/images/Homepage_Image_3.JPG",
     "/images/Homepage_Image_2.JPG",
-    "/images/Homepage_Image_3.JPG",
+    "/images/Homepage_Image_2.JPG",
+    "/images/Homepage_Image_2.JPG",
+    "/images/Homepage_Image_2.JPG",
+    "/images/Homepage_Image_2.JPG",
+    "/images/Homepage_Image_2.JPG",
     "/images/Homepage_Image_2.JPG"
 ]
 
@@ -22,7 +22,7 @@ imageTrack.forEach((image) => {
     imageTrackHTML += `
         <img class="image" src="${image}" draggable="false">
     `;
-    
+
 });
 
-document.querySelector("js-track").innerHTML = imageTrackHTML;
+document.querySelector('.js-track').innerHTML = imageTrackHTML;
