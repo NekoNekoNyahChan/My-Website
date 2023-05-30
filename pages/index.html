@@ -16,27 +16,41 @@
     <link rel="stylesheet" href="/styles/header.css">
     <link rel="stylesheet" href="/styles/index.css">
 </head>
-<body>
-    <div class="header">
-        <a href="index.html" class="page-link">
+<body style="background-color: black">
+    <nav class="header">
+        <a href="index.html" class="webpages">
             HOME
         </a>
-        <a href="about-me.html" class="page-link">
+        <a href="projects.html" class="webpages">
             ABOUT ME
         </a>
-        <a href="projects.html" class="page-link">
+        <a href="hobbies.html" class="webpages">
             PROJECTS
         </a>
-        <a href="contact.html" class="page-link">
+        <a href="contact.html" class="webpages">
             CONTACT
         </a>
+    </nav>
+    
+    <div class="js-track" 
+    id="image-track" 
+    data-mouse-down-at="0" data-prev-percentage="0">
+        <!--
+        <img class="image" src="/Images/Homepage_Image_3.jpg" draggable="false">
+        <img class="image" src="/Images/Homepage_Image_2.jpg" draggable="false">
+        <img class="image" src="/Images/Homepage_Image_3.jpg" draggable="false">
+        <img class="image" src="/Images/Homepage_Image_2.jpg" draggable="false">
+        <img class="image" src="/Images/Homepage_Image_3.jpg" draggable="false">
+        <img class="image" src="/Images/Homepage_Image_2.jpg" draggable="false">
+        <img class="image" src="/Images/Homepage_Image_3.jpg" draggable="false">
+        <img class="image" src="/Images/Homepage_Image_2.jpg" draggable="false">
+        <img class="image" src="/Images/Homepage_Image_3.jpg" draggable="false">
+        <img class="image" src="/Images/Homepage_Image_2.jpg" draggable="false">
+        -->
     </div>
-    <div class="main">
-        <div class="image-carousel">
 
-        </div>
-    </div>
-    <script src="/scripts/index.js"></script>
-    <script src="/scripts/image-carousel.js"></script>
+    <script src="/scripts/image-track-HTML-generator.js"></script>
+    <script src="/scripts/image-track-animation.js"></script>
+    
 </body>
 </html>
