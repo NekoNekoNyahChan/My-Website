@@ -1,0 +1,20 @@
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.basic-info {
+    margin: 10px;
+    flex-direction: column;
+    background-color: white;
+}
+
+.resume {
+    margin: 10px;
+}
+
+.profile-image {
+    margin: 10px;
+    margin-top: 70px;
+    width: 200px;
+}
