@@ -22,12 +22,13 @@ const handleOnMove = e => {
   track.animate({
     transform: `translate(${nextPercentage}%, -50%)`
   }, { duration: 1200, fill: "forwards" });
-  
+  /*
   for(const image of track.getElementsByClassName("image")) {
     image.animate({
       objectPosition: `${100 + nextPercentage/2}% center`
     }, { duration: 1200, fill: "forwards" });
   }
+  */
 }
 
 /* -- Had to add extra lines for touch events -- */
