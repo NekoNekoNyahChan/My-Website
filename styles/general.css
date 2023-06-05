@@ -6,6 +6,7 @@ body {
   background-color: white;
   overflow: hidden;
   flex-direction: column;
+  overflow-y: auto;
 }
 
 .main {
