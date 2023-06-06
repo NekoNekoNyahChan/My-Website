@@ -27,7 +27,6 @@ const projects = [
 ]
 
 let projectsHTML = '';
-
 /*
 1. fix tags
 2. can't seem to access object descriptions for some reason
