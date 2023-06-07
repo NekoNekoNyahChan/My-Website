@@ -11,25 +11,16 @@
 .info-container {
     display: flex;
     flex-direction: column;
+    margin-left: 10px;
 }
 
 .basic-info {
-    margin: 10px;
     flex-direction: column;
 }
 
-.resume {
-    margin: 10px;
-}
-
-/*
-fix coloring! (can't do just a, bc it is overridden(?)
-*/
-/*
-.resume:a {
+.links {
     color: black;
 }
-*/
 .profile-image {
-    width: 50%;
+    width: 25%;
 }
